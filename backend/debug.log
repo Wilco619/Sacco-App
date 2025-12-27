@@ -6431,3 +6431,83 @@ INFO 2025-04-13 05:37:36,041 views STK Raw Response: {
                 }
             
 INFO 2025-04-13 05:37:36,042 views STK query response for ws_CO_13042025083729387718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-08-18 13:48:59,317 views STK Query Request for ws_CO_180820251648552718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwODE4MTM0ODU5', 'Timestamp': '20250818134859', 'CheckoutRequestID': 'ws_CO_180820251648552718679186'}
+INFO 2025-08-18 13:49:02,357 views STK Query Request for ws_CO_180820251648552718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwODE4MTM0OTAy', 'Timestamp': '20250818134902', 'CheckoutRequestID': 'ws_CO_180820251648552718679186'}
+INFO 2025-08-18 13:49:04,740 views STK Raw Response: {
+                    "requestId":"ws_CO_180820251648552718679186",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": ""
+                }
+            
+INFO 2025-08-18 13:49:04,740 views STK query response for ws_CO_180820251648552718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-08-18 13:49:05,180 views STK Query Request for ws_CO_180820251648552718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwODE4MTM0OTA1', 'Timestamp': '20250818134905', 'CheckoutRequestID': 'ws_CO_180820251648552718679186'}
+INFO 2025-08-18 13:49:05,441 views STK Raw Response: <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=13-2406423-0%200NNN%20RT%281755524945326%2093%29%20q%280%20-1%20-1%201%29%20r%280%20-1%29%20B15%2811%2c6926146%2c0%29%20U6&incident_id=6549000460018193927-14247858648976269&edet=15&cinfo=0b000000&rpinfo=0&mth=POST" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 6549000460018193927-14247858648976269</iframe></body></html>
+ERROR 2025-08-18 13:49:05,441 views STK query failed: Expecting value: line 1 column 1 (char 0)
+INFO 2025-08-18 13:49:05,442 views STK query response for ws_CO_180820251648552718679186: {'ResultCode': 'Error', 'ResultDesc': 'Expecting value: line 1 column 1 (char 0)', 'ResponseCode': 'Error'}
+INFO 2025-08-18 13:49:07,932 views STK Raw Response: {
+                    "requestId":"ws_CO_180820251648552718679186",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": ""
+                }
+            
+INFO 2025-08-18 13:49:07,933 views STK query response for ws_CO_180820251648552718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-08-18 13:54:23,061 views Payment initiation started for user: 123456
+INFO 2025-08-18 13:54:24,727 views Payment initiated: {'success': True, 'message': 'Payment initiated successfully', 'checkoutRequestId': 'ws_CO_180820251654242718679186'}
+INFO 2025-08-18 13:54:28,319 views STK Query Request for ws_CO_180820251654242718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwODE4MTM1NDI4', 'Timestamp': '20250818135428', 'CheckoutRequestID': 'ws_CO_180820251654242718679186'}
+INFO 2025-08-18 13:54:31,218 views STK Query Request for ws_CO_180820251654242718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwODE4MTM1NDMx', 'Timestamp': '20250818135431', 'CheckoutRequestID': 'ws_CO_180820251654242718679186'}
+INFO 2025-08-18 13:54:33,913 views STK Raw Response: {
+                    "requestId":"ws_CO_180820251654242718679186",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": ""
+                }
+            
+INFO 2025-08-18 13:54:33,913 views STK query response for ws_CO_180820251654242718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-08-18 13:54:34,342 views STK Query Request for ws_CO_180820251654242718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUwODE4MTM1NDM0', 'Timestamp': '20250818135434', 'CheckoutRequestID': 'ws_CO_180820251654242718679186'}
+INFO 2025-08-18 13:54:36,749 views STK Raw Response: {
+                    "requestId":"ws_CO_180820251654242718679186",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": ""
+                }
+            
+INFO 2025-08-18 13:54:36,750 views STK query response for ws_CO_180820251654242718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-08-18 13:54:44,003 views STK Raw Response: {
+                    "requestId":"ws_CO_180820251654242718679186",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": ""
+                }
+            
+INFO 2025-08-18 13:54:44,004 views STK query response for ws_CO_180820251654242718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-08-18 13:54:48,188 views Payment initiation started for user: 123456
+ERROR 2025-08-18 13:54:48,466 base WelfarePaymentHandler: Payment initiation failed: Failed to initiate payment
+ERROR 2025-08-18 13:54:48,466 views Payment initiation failed
+Traceback (most recent call last):
+  File "/home/wilco/Projects/FullStack/Sacco-App/backend/mpesaconfig/welfare_payments.py", line 154, in initiate_payment
+    raise ValueError(payment_response.get('message'))
+ValueError: Failed to initiate payment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wilco/Projects/FullStack/Sacco-App/backend/welfare/views.py", line 194, in initiate_payment
+    payment_response = self.payment_handler.initiate_payment(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wilco/Projects/FullStack/Sacco-App/backend/mpesaconfig/welfare_payments.py", line 164, in initiate_payment
+    raise ValueError(str(e))
+ValueError: Failed to initiate payment
+INFO 2025-08-18 13:54:52,376 views Payment initiation started for user: 123456
+ERROR 2025-08-18 13:54:52,665 base WelfarePaymentHandler: Payment initiation failed: Failed to initiate payment
+ERROR 2025-08-18 13:54:52,665 views Payment initiation failed
+Traceback (most recent call last):
+  File "/home/wilco/Projects/FullStack/Sacco-App/backend/mpesaconfig/welfare_payments.py", line 154, in initiate_payment
+    raise ValueError(payment_response.get('message'))
+ValueError: Failed to initiate payment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wilco/Projects/FullStack/Sacco-App/backend/welfare/views.py", line 194, in initiate_payment
+    payment_response = self.payment_handler.initiate_payment(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wilco/Projects/FullStack/Sacco-App/backend/mpesaconfig/welfare_payments.py", line 164, in initiate_payment
+    raise ValueError(str(e))
+ValueError: Failed to initiate payment
