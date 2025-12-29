@@ -6511,3 +6511,158 @@ Traceback (most recent call last):
   File "/home/wilco/Projects/FullStack/Sacco-App/backend/mpesaconfig/welfare_payments.py", line 164, in initiate_payment
     raise ValueError(str(e))
 ValueError: Failed to initiate payment
+INFO 2025-12-28 12:41:36,040 views STK Query Request for ws_CO_28122025154131059718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTI0MTM2', 'Timestamp': '20251228124136', 'CheckoutRequestID': 'ws_CO_28122025154131059718679186'}
+INFO 2025-12-28 12:41:39,096 views STK Query Request for ws_CO_28122025154131059718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTI0MTM5', 'Timestamp': '20251228124139', 'CheckoutRequestID': 'ws_CO_28122025154131059718679186'}
+INFO 2025-12-28 12:41:42,169 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successfully",
+            "MerchantRequestID":"2918-4ce7-85c0-12565e9ec16429033",
+            "CheckoutRequestID":"ws_CO_28122025154131059718679186",
+            "ResultCode": "4999",
+            "ResultDesc":"The transaction is still under processing"
+        }
+        
+INFO 2025-12-28 12:41:42,174 views STK Query Request for ws_CO_28122025154131059718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTI0MTQy', 'Timestamp': '20251228124142', 'CheckoutRequestID': 'ws_CO_28122025154131059718679186'}
+INFO 2025-12-28 12:41:42,183 views STK query response for ws_CO_28122025154131059718679186: {'ResultCode': '4999', 'ResultDesc': 'The transaction is still under processing', 'ResponseCode': '0', 'ResponseDesc': 'The service request has been accepted successfully', 'MerchantRequestID': '2918-4ce7-85c0-12565e9ec16429033', 'CheckoutRequestID': 'ws_CO_28122025154131059718679186', 'ResultParameters': {}}
+INFO 2025-12-28 12:41:42,470 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successfully",
+            "MerchantRequestID":"2918-4ce7-85c0-12565e9ec16429033",
+            "CheckoutRequestID":"ws_CO_28122025154131059718679186",
+            "ResultCode": "4999",
+            "ResultDesc":"The transaction is still under processing"
+        }
+        
+INFO 2025-12-28 12:41:42,481 views STK query response for ws_CO_28122025154131059718679186: {'ResultCode': '4999', 'ResultDesc': 'The transaction is still under processing', 'ResponseCode': '0', 'ResponseDesc': 'The service request has been accepted successfully', 'MerchantRequestID': '2918-4ce7-85c0-12565e9ec16429033', 'CheckoutRequestID': 'ws_CO_28122025154131059718679186', 'ResultParameters': {}}
+INFO 2025-12-28 12:41:43,390 views STK Raw Response: <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=18-90167360-0%200NNN%20RT%281766925703067%20210%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B15%2811%2c6926146%2c0%29%20U6&incident_id=6553000570128677201-508124399964589650&edet=15&cinfo=0b000000&rpinfo=0&cip=102.214.72.6&mth=POST" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 6553000570128677201-508124399964589650</iframe></body></html>
+ERROR 2025-12-28 12:41:43,391 views STK query failed: Expecting value: line 1 column 1 (char 0)
+INFO 2025-12-28 12:41:43,393 views STK query response for ws_CO_28122025154131059718679186: {'ResultCode': 'Error', 'ResultDesc': 'Expecting value: line 1 column 1 (char 0)', 'ResponseCode': 'Error'}
+INFO 2025-12-28 12:48:41,715 views Payment initiation started for user: 123456
+INFO 2025-12-28 12:48:45,075 views Payment initiated: {'success': True, 'message': 'Payment initiated successfully', 'checkoutRequestId': 'ws_CO_28122025154844406718679186'}
+INFO 2025-12-28 12:48:49,433 views STK Query Request for ws_CO_28122025154844406718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTI0ODQ5', 'Timestamp': '20251228124849', 'CheckoutRequestID': 'ws_CO_28122025154844406718679186'}
+INFO 2025-12-28 12:48:50,962 views STK Raw Response: {"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=60000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}
+INFO 2025-12-28 12:48:50,969 views STK query response for ws_CO_28122025154844406718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-12-28 12:49:09,174 views Payment initiation started for user: 123456
+INFO 2025-12-28 12:49:12,491 views Payment initiated: {'success': True, 'message': 'Payment initiated successfully', 'checkoutRequestId': 'ws_CO_28122025154911755718679186'}
+INFO 2025-12-28 12:49:16,977 views STK Query Request for ws_CO_28122025154911755718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTI0OTE2', 'Timestamp': '20251228124916', 'CheckoutRequestID': 'ws_CO_28122025154911755718679186'}
+INFO 2025-12-28 12:49:18,565 views STK Raw Response: <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=7-6436724-0%200NNN%20RT%281766926157508%20944%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B15%2811%2c6926146%2c0%29%20U6&incident_id=6553000570128677201-32836120624041543&edet=15&cinfo=0b000000&rpinfo=0&cip=102.214.72.6&mth=POST" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 6553000570128677201-32836120624041543</iframe></body></html>
+ERROR 2025-12-28 12:49:18,567 views STK query failed: Expecting value: line 1 column 1 (char 0)
+INFO 2025-12-28 12:49:18,571 views STK query response for ws_CO_28122025154911755718679186: {'ResultCode': 'Error', 'ResultDesc': 'Expecting value: line 1 column 1 (char 0)', 'ResponseCode': 'Error'}
+ERROR 2025-12-28 12:49:19,537 views Status query error: Failed to connect to M-Pesa: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/home/gona/project/Sacco-App/env102/lib/python3.11/site-packages/requests/models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gona/project/Sacco-App/backend/mpesaconfig/views.py", line 70, in generate_access_token
+    ).json()
+      ^^^^^^
+  File "/home/gona/project/Sacco-App/env102/lib/python3.11/site-packages/requests/models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gona/project/Sacco-App/backend/mpesaconfig/views.py", line 242, in query_status
+    stk_status = self.query_stk_push(checkout_request_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gona/project/Sacco-App/backend/mpesaconfig/views.py", line 121, in query_stk_push
+    token = self.generate_access_token()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gona/project/Sacco-App/backend/mpesaconfig/views.py", line 78, in generate_access_token
+    raise Exception(f"Failed to connect to M-Pesa: {str(e)}")
+Exception: Failed to connect to M-Pesa: Expecting value: line 1 column 1 (char 0)
+INFO 2025-12-28 13:00:14,215 views STK Query Request for ws_CO_28122025160006205718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMwMDE0', 'Timestamp': '20251228130014', 'CheckoutRequestID': 'ws_CO_28122025160006205718679186'}
+INFO 2025-12-28 13:00:15,544 views STK Query Request for ws_CO_28122025160006205718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMwMDE1', 'Timestamp': '20251228130015', 'CheckoutRequestID': 'ws_CO_28122025160006205718679186'}
+INFO 2025-12-28 13:00:16,467 views STK Raw Response: {"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=60000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}
+INFO 2025-12-28 13:00:16,475 views STK query response for ws_CO_28122025160006205718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-12-28 13:00:18,325 views STK Query Request for ws_CO_28122025160006205718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMwMDE4', 'Timestamp': '20251228130018', 'CheckoutRequestID': 'ws_CO_28122025160006205718679186'}
+INFO 2025-12-28 13:00:18,858 views STK Raw Response: <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=9-11062014-0%200NNN%20RT%281766926818532%20212%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B15%2811%2c6926146%2c0%29%20U6&incident_id=6553000570128794925-54070739583176265&edet=15&cinfo=0b000000&rpinfo=0&cip=102.214.72.6&mth=POST" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 6553000570128794925-54070739583176265</iframe></body></html>
+ERROR 2025-12-28 13:00:18,859 views STK query failed: Expecting value: line 1 column 1 (char 0)
+INFO 2025-12-28 13:00:18,862 views STK query response for ws_CO_28122025160006205718679186: {'ResultCode': 'Error', 'ResultDesc': 'Expecting value: line 1 column 1 (char 0)', 'ResponseCode': 'Error'}
+INFO 2025-12-28 13:00:19,488 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"Completed",
+            "MerchantRequestID":"2918-4ce7-85c0-12565e9ec16429200",
+            "CheckoutRequestID":"ws_CO_28122025160006205718679186",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+INFO 2025-12-28 13:00:19,493 views STK query response for ws_CO_28122025160006205718679186: {'ResultCode': '0', 'ResultDesc': 'The service request is processed successfully.', 'ResponseCode': '0', 'ResponseDesc': 'Completed', 'MerchantRequestID': '2918-4ce7-85c0-12565e9ec16429200', 'CheckoutRequestID': 'ws_CO_28122025160006205718679186', 'ResultParameters': {}}
+INFO 2025-12-28 13:00:19,651 base RegistrationPaymentHandler: Member status updated: 6
+INFO 2025-12-28 13:00:19,660 base RegistrationPaymentHandler: Membership fee recorded: 8
+INFO 2025-12-28 13:00:19,675 base RegistrationPaymentHandler: Profit recorded: 8
+INFO 2025-12-28 13:00:19,757 views Payment processed successfully: {'success': True, 'registration_completed': True, 'member_id': 6, 'status': 'active', 'registration_paid': True, 'membership_fee_id': 8}
+INFO 2025-12-28 13:03:56,034 views Payment initiation started for user: 11112222
+INFO 2025-12-28 13:03:59,692 views Payment initiated: {'success': True, 'message': 'Payment initiated successfully', 'checkoutRequestId': 'ws_CO_28122025160358752718679186'}
+INFO 2025-12-28 13:04:03,880 views STK Query Request for ws_CO_28122025160358752718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMwNDAz', 'Timestamp': '20251228130403', 'CheckoutRequestID': 'ws_CO_28122025160358752718679186'}
+INFO 2025-12-28 13:04:05,574 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successfully",
+            "MerchantRequestID":"ea38-4c90-ae87-0825f9f7430015536",
+            "CheckoutRequestID":"ws_CO_28122025160358752718679186",
+            "ResultCode": "4999",
+            "ResultDesc":"The transaction is still under processing"
+        }
+        
+INFO 2025-12-28 13:04:05,579 views STK query response for ws_CO_28122025160358752718679186: {'ResultCode': '4999', 'ResultDesc': 'The transaction is still under processing', 'ResponseCode': '0', 'ResponseDesc': 'The service request has been accepted successfully', 'MerchantRequestID': 'ea38-4c90-ae87-0825f9f7430015536', 'CheckoutRequestID': 'ws_CO_28122025160358752718679186', 'ResultParameters': {}}
+INFO 2025-12-28 13:11:44,196 views STK Query Request for ws_CO_28122025161139215718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMxMTQ0', 'Timestamp': '20251228131144', 'CheckoutRequestID': 'ws_CO_28122025161139215718679186'}
+INFO 2025-12-28 13:11:46,658 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successfully",
+            "MerchantRequestID":"ea38-4c90-ae87-0825f9f7430015609",
+            "CheckoutRequestID":"ws_CO_28122025161139215718679186",
+            "ResultCode": "4999",
+            "ResultDesc":"The transaction is still under processing"
+        }
+        
+INFO 2025-12-28 13:11:46,662 views STK query response for ws_CO_28122025161139215718679186: {'ResultCode': '4999', 'ResultDesc': 'The transaction is still under processing', 'ResponseCode': '0', 'ResponseDesc': 'The service request has been accepted successfully', 'MerchantRequestID': 'ea38-4c90-ae87-0825f9f7430015609', 'CheckoutRequestID': 'ws_CO_28122025161139215718679186', 'ResultParameters': {}}
+INFO 2025-12-28 13:11:46,966 views STK Query Request for ws_CO_28122025161139215718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMxMTQ2', 'Timestamp': '20251228131146', 'CheckoutRequestID': 'ws_CO_28122025161139215718679186'}
+INFO 2025-12-28 13:11:49,844 views STK Query Request for ws_CO_28122025161139215718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTMxMTQ5', 'Timestamp': '20251228131149', 'CheckoutRequestID': 'ws_CO_28122025161139215718679186'}
+INFO 2025-12-28 13:11:50,041 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"Completed",
+            "MerchantRequestID":"ea38-4c90-ae87-0825f9f7430015609",
+            "CheckoutRequestID":"ws_CO_28122025161139215718679186",
+            "ResultCode": "0",
+            "ResultDesc":"The service request is processed successfully."
+        }
+        
+INFO 2025-12-28 13:11:50,046 views STK query response for ws_CO_28122025161139215718679186: {'ResultCode': '0', 'ResultDesc': 'The service request is processed successfully.', 'ResponseCode': '0', 'ResponseDesc': 'Completed', 'MerchantRequestID': 'ea38-4c90-ae87-0825f9f7430015609', 'CheckoutRequestID': 'ws_CO_28122025161139215718679186', 'ResultParameters': {}}
+INFO 2025-12-28 13:11:50,169 base SharePaymentHandler: Updated share capital for user 11112222
+INFO 2025-12-28 13:11:50,357 views Payment processed successfully: {'success': True, 'shares_purchased': 0, 'total_shares': 0, 'total_value': '2.00', 'monthly_contribution': '2.00', 'transaction_date': '2025-12-28T13:11:50.169699+00:00'}
+INFO 2025-12-28 13:11:50,762 views STK Raw Response: <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=16-46804128-0%200NNN%20RT%281766927510334%20314%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B15%2811%2c6926146%2c0%29%20U6&incident_id=6553000570128794925-236980868300213840&edet=15&cinfo=0b000000&rpinfo=0&cip=102.214.72.6&mth=POST" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 6553000570128794925-236980868300213840</iframe></body></html>
+ERROR 2025-12-28 13:11:50,762 views STK query failed: Expecting value: line 1 column 1 (char 0)
+INFO 2025-12-28 13:11:50,767 views STK query response for ws_CO_28122025161139215718679186: {'ResultCode': 'Error', 'ResultDesc': 'Expecting value: line 1 column 1 (char 0)', 'ResponseCode': 'Error'}
+INFO 2025-12-28 17:05:56,947 views STK Query Request for ws_CO_28122025200552075718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTcwNTU2', 'Timestamp': '20251228170556', 'CheckoutRequestID': 'ws_CO_28122025200552075718679186'}
+INFO 2025-12-28 17:05:58,056 views STK Raw Response: {"fault":{"faultstring":"Spike arrest violation. Allowed rate : MessageRate{messagesPerPeriod=5, periodInMicroseconds=60000000, maxBurstMessageCount=1.0}","detail":{"errorcode":"policies.ratelimit.SpikeArrestViolation"}}}
+INFO 2025-12-28 17:05:58,062 views STK query response for ws_CO_28122025200552075718679186: {'ResultCode': 'None', 'ResultDesc': 'Query in progress', 'ResponseCode': 'None', 'ResponseDesc': None, 'MerchantRequestID': None, 'CheckoutRequestID': None, 'ResultParameters': {}}
+INFO 2025-12-28 17:06:00,110 views STK Query Request for ws_CO_28122025200552075718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTcwNjAw', 'Timestamp': '20251228170600', 'CheckoutRequestID': 'ws_CO_28122025200552075718679186'}
+INFO 2025-12-28 17:06:03,311 views STK Query Request for ws_CO_28122025200552075718679186: {'BusinessShortCode': '174379', 'Password': 'MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjUxMjI4MTcwNjAz', 'Timestamp': '20251228170603', 'CheckoutRequestID': 'ws_CO_28122025200552075718679186'}
+INFO 2025-12-28 17:06:03,902 views STK Raw Response: <html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3"></script></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=16-47216593-0%200NNN%20RT%281766941563501%20320%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B15%2811%2c6926146%2c0%29%20U6&incident_id=6553000570130436338-239114603757899344&edet=15&cinfo=0b000000&rpinfo=0&cip=102.214.72.6&mth=POST" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 6553000570130436338-239114603757899344</iframe></body></html>
+ERROR 2025-12-28 17:06:03,904 views STK query failed: Expecting value: line 1 column 1 (char 0)
+INFO 2025-12-28 17:06:03,908 views STK query response for ws_CO_28122025200552075718679186: {'ResultCode': 'Error', 'ResultDesc': 'Expecting value: line 1 column 1 (char 0)', 'ResponseCode': 'Error'}
+INFO 2025-12-28 17:06:05,277 views STK Raw Response: {
+            "ResponseCode": "0",
+            "ResponseDescription":"The service request has been accepted successfully",
+            "MerchantRequestID":"3331-41d6-afb6-7a3a56c2e56f1061",
+            "CheckoutRequestID":"ws_CO_28122025200552075718679186",
+            "ResultCode": "4999",
+            "ResultDesc":"The transaction is still under processing"
+        }
+        
+INFO 2025-12-28 17:06:05,282 views STK query response for ws_CO_28122025200552075718679186: {'ResultCode': '4999', 'ResultDesc': 'The transaction is still under processing', 'ResponseCode': '0', 'ResponseDesc': 'The service request has been accepted successfully', 'MerchantRequestID': '3331-41d6-afb6-7a3a56c2e56f1061', 'CheckoutRequestID': 'ws_CO_28122025200552075718679186', 'ResultParameters': {}}

@@ -1,4 +1,4 @@
-#!/home/wilco/Projects/FullStack/Sacco/env102/bin/python3
+#!/home/gona/project/Sacco-App/env102/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
